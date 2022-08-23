@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+<!-- css and bootstrap -->
+    <link rel="stylesheet" href="public/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Modak&family=Yanone+Kaffeesatz:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Asap&family=Berkshire+Swash&family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="headsection">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <span class="navbar-brand h1 fs-3">Raphael</span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ms-auto me-5">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="resume.html">Resume</a>
+                      </li>  
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+            </nav>
+              <div class="title">
+                <div class="title-box">
+                    <h1 class="head-h">I'm Raphael</h1>
+                    <p class="head-p">a Full-Stack Developer</p>
+                </div>
+              </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="row">
+            <div class="col-md-4 col-sm-12">
+                <img class="profile-pic" src="public/photos/raphael-modified.png" alt="profile-picture">
+            </div>
+            <div class="col-md-8">
+                <h2 class="about-name">I'm Raphael Hazout, </h2>
+                <h3 class="about-details">23, Ramat Gan</h3>
+                <p class="about-p">Hardworking Student seeking employment. ready to utilize my skills and passion.Technologically adoptive, offering experience with many different platforms, technology programs,and advanced computer skills.Bringing forth a positive attitude and the willingness and motivation to learn new programs.</p>
+            </div>
+        </div>
+        <h1 class="education">Education</h1>
+        <div class="row" id="resume">
+            <div class="col-md-4">
+                <div class="card text-bg-dark mb-3 mx-auto" style="max-width: 33rem;">
+                    <div class="card-header"><h4 class="card-title">Front-End Developer</h4><em class="card-title-sec"> The App Brewery bootcamp</em></div>
+                        <div class="card-body">
+                          <p class="card-text">Specializing in web development using the following software<ul><li>HTML</li><li>CSS (Including Bootstrap)</li><li>JavaScript</li><li>jQuery</li></ul></p>
+                        </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-bg-dark mb-3 mx-auto" style="max-width: 33rem;">
+                    <div class="card-header"><h4 class="card-title">B.Sc. - Computer Science</h4><i> The College of Management</i></div>
+                    <div class="card-body">
+                      <p class="card-text">Finished the first year of my bachelor's degree in Computer Science with an 87.00 GPA<ul><li>Programming in C</li><li>Object-oriented programming in C++. (STL, Algorithms)</li><li>Mathematical courses (infinite, discrete, linear).</li><li>Recognition and use of any data structures and runtime analysis.</li></ul></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-bg-dark mb-3 mx-auto" style="max-width: 33rem;">
+                    <div class="card-header"><h4 class="card-title">QA</h4><i> Experis Academy</i></div>
+                    <div class="card-body">
+                      <p class="card-text">After my military service, I continued in the ‘Combat Soldier to High 
+                        tech’ military program where I learned the profession of software QA, 
+                        and during the training, I got to learn:<ul><li>Working with Python.</li><li>Working with SQL.</li><li>Working with Jira.</li></ul></p>
+                    </div> 
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="projects">
+        <div id="testimonial-carousel" class="carousel slide" data-bs-ride="false" data-bs-interval="9000" data-bs-pause="false">
+            <h1 class="project-head">My Projects</h1>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#testimonial-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#testimonial-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#testimonial-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="card mb-3" style="border-width:0;">
+                    <img src="public/photos/tindog.png" class="card-img-top" alt="tindog-website">
+                    <div class="card-body">
+                      <h3 class="card-title">Tindog Web-site</h5>
+                      <p class="card-text">One of my first projects, using HTML with CSS and Bootstrap library.</p>
+                      <p class="card-text"><a class="card-link btn fw-bold border-white btn-dark" href="https://raphaelhazout.github.io/tindog-website/">Link to tindog</a></p>
+                    </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card mb-3" style="border-width:0;">
+                    <img src="public/photos/simon.png" class="card-img-top" alt="simon-game">
+                    <div class="card-body">
+                      <h3 class="card-title">Simon Game</h5>
+                      <p class="card-text">Cool game to improve your memory skills, using JavaScript.</p>
+                      <p class="card-text"><a class="card-link btn fw-bold border-white btn-dark" href="https://raphaelhazout.github.io/Simon-Game/">Link to Simon Game</a></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card mb-3" style="border-width:0;">
+                        <img src="public/photos/newsletter.png" class="card-img-top" alt="my-newsletter">
+                        <div class="card-body">
+                          <h3 class="card-title">My Newsletter</h5>
+                          <p class="card-text">SignUp to my Newsletter, using MailChimp API and Heroku Server.</p>
+                          <p class="card-text"><a class="card-link btn fw-bold border-white btn-dark" href="https://raphaelhazout.herokuapp.com/">Link to Newsletter</a></p>
+                        </div>
+                      </div>
+                    </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+    </section>
+    <section id="contact">
+
+
+    </section>
+
+
+
+
+
+<!-- bootstrap and Font awesome Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/6675e4b093.js" crossorigin="anonymous"></script>
+</body>
+</html>
